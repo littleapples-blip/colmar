@@ -2,18 +2,24 @@
 
 <head>
     <title>Colmar Academy</title>
+    <link href="css/index.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Libre+Franklin&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
+    <!-- NAVIGATION BAR -->
     <nav>
-        <img src="Images/ic-login.svg">
-        <h1><span>Colmar</span>Academy</h1>
+        <img class="LHS" src="Images/ic-logo.svg">
+        <h1 class="LHS"><span>Colmar</span>Academy</h1>
+        
 
         <ul>
             <li>
                 <a href="#">
                     <img src="Images/ic-on-campus.svg" alt="On campus">
                     <span>On campus</span>
+                </a>
             </li>
             <li>
                 <a href="#">
@@ -36,20 +42,22 @@
         </ul>
     </nav>
 
+<!-- LEARN SOMETHING NEW EVERYDAY  -->
     <section class="learn-something">
         <div class="container">
-            <img class = "column-left" src="resources/capstone_colmar_assets/images/banner.jpg">
+            <img class = "column-left" src="Images/banner.jpg">
             <div class="column-right">
                 <h2>Learn something new every day</h2>
-                <h4>Lorem ipsum dolor sit amet, consecteteur adipiscing elit</h4>
+                <h3>For example, you probably didn't know that cat people are on average more intelligent that dog people.</h3>
                 <a href="#">Start here</a>
             </div>
         </div>
     </section>
 
+<!-- KEEP PRACTICING -->
     <section class="keep-practicing">
         <div class="container">
-            <img class="column-left" src="resources/capstone_colmar_assets/images/information-main.jpg">
+            <img class="column-left" src="Images/information-main.jpg">
             <div class="column-left">
                 <h3>It doesn't hurt to keep practicing</h3>
                 <p>The market demand curve can then be used to demonstrate that, under certain conitions, a market economy generates consumer sovereinty. Figure 2.9 shows the market demand curve for good G. Now assume that firms plan to supply 400 untis of good G a a price of £2 per unit. This si represented by point A on the diagram. The problem is that consumers want to purchase only 200 units of good G at this price, so there is an excess upply of good G. Firms can only sell what consumers are willing to purchase, and as consumers wish to purchase only 200 units at a price of £2, this will be all that firms will be able to sell at that price. </p>
@@ -58,7 +66,8 @@
             <ul class="column-right">
                 <li>
                     <a href="#">
-                        <img src="resources/capstone_colmar_assets/images/information-orientation.jpg" alt="students walking down a path">
+                        <img src="Images/information-orientation-mobile.jpg" alt="students walking down a path">
+                        <img class="desktop-image" src="Images/information-orientation.jpg" alt="students walking down a path">
                         <h3>Orientation date</h3>
                         <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
                         <p class="read-more">
@@ -68,7 +77,8 @@
                 </li>
                 <li>
                     <a href="#">
-                        <img src="resources/capstone_colmar_assets/images/information-campus.jpg" alt="classroom with map of South America on the wall">
+                        <img src="Images/information-campus-mobile.jpg" alt="classroom with map of South America on the wall">
+                        <img class="desktop-only" src="Images/information-campus.jpg" alt="classroom with map of South America on the wall">
                         <h3>Our Campus</h3>
                         <p>Find which campus is close by you</p>
                         <p class="read-more">Read more</p>
@@ -76,7 +86,8 @@
                 </li>
                 <li>
                     <a href="#">
-                        <img src="resources/capstone_colmar_assets/images/information-guest-lecture.jpg" alt="guest lecturer">
+                        <img src="Images/information-guest-lecture-mobile.jpg" alt="guest lecturer">
+                        <img class="desktop-only" src="Images/information-guest-lecture.jpg" alt="guest lecturer">
                         <h3>Our guest lecture</h3>
                         <p>Join a keynote with Oliver Sack about music in medical treatment</p>
                         <p class="read-more">Read more</p>
@@ -86,42 +97,43 @@
         </div>
     </section>
 
+<!-- START LEARNING -->
     <section class="start-learning">
         <div class="container">
             <h2>Start learning</h2>
             <ul>
                 <li>
-                    <img src="resources/capstone_colmar_assets/images/course-software.jpg" alt="some computer screens">
+                    <img src="Images/course-software.jpg alt="some computer screens">
                     <h3>Software engineering</h3>
                     <h6>Courses</h6>
                     <p>Web Development, Mobile Development, iOT, APIs</p>
                 </li>
                 <li>
-                    <img src="resources/capstone_colmar_assets/images/course-computer-art.jpg" alt="someone holding a phone and drinking coffee"> 
+                    <img src="Images/course-computer-art.jpg" alt="someone holding a phone and drinking coffee"> 
                     <h3>Computer art</h3>
                     <h6>Courses</h6>
                     <p>Imaging & Desing, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
                 </li>
                 <li>
-                    <img src="resources/capstone_colmar_assets/images/course-design.jpg" alt="a person taking a photo">
+                    <img src="Images/course-design.jpg" alt="a person taking a photo">
                     <h3>Design</h3>
                     <h6>Courses</h6>
                     <p>User experience desin, user Research, Visual Design</p>
                 </li>
                 <li>
-                    <img src="resources/capstone_colmar_assets/images/course-data.jpg" alt="a computer screen with a graph showing ">
+                    <img src="Images/course-data.jpg" alt="a computer screen with a graph showing ">
                     <h3>Data</h3>
                     <h6>Courses</h6>
                     <p>Data science, big data, SQL, Data Visualization</p>
                 </li>
                 <li>
-                    <img src="resources/capstone_colmar_assets/images/course-business.jpg" alt="a chess board">
+                    <img src="Images/course-business.jpg" alt="a chess board">
                     <h3>Business</h3>
                     <h6>Courses</h6>
                     <p>Product development, business development, startup</p>
                 </li>
                 <li>
-                    <img src="resources/capstone_colmar_assets/images/course-marketing.jpg" alt="a person checking their smart watch">
+                    <img src="Images/course-marketing.jpg" alt="a person checking their smart watch">
                     <h3>Marketing</h3>
                     <h6>Courses</h6>
                     <p>Analytics, content marketing, mobile marketing</p>
@@ -134,7 +146,7 @@
         <div class="container">
             <h2>Thesis Exhibit</h2>
             <video class="column-left">
-                <source src="resources/capstone_colmar_assets/videos/thesis.mp4" type="video/mp4">
+                <source src="video/thesis.mp4" type="video/mp4">
                 Sorry, your browser doesn't support this video.
             </video>    
            <h3>Reimagine urban</h3>
@@ -144,14 +156,14 @@
             <ul>
                 <li>
                     <a href="#">
-                        <img src="resources/capstone_colmar_assets/images/thesis-fisma.jpg" alt="a person sketching technical designs">
+                        <img src="Images/thesis-fisma.jpg" alt="a person sketching technical designs">
                         <h3>Fisma: Design and Prototype</h3>
                         <p>Designer showcase of new prototype product</p>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="resources/capstone_colmar_assets/images/thesis-now-and-then.jpg" alt="the new york city sky line">
+                        <img src="Images/thesis-now-and-then.jpg" alt="the new york city sky line">
                         <h3>Now and then</h3>
                         <p>Research study about New York</p>
                     </a>

@@ -1,42 +1,109 @@
+/*    imported fonts:
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Libre Franklin', sans-serif;
+ */
 * {
-    font-family: 'DM Serif Text', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family: 'Libre Franklin', Arial, Helvetica, sans-serif;
 }
 
-/* Rule to stop smaller screens showing full list  */
-@media only screen and (max-width: 780px) {
-    .desktop {
-        display: none;
-    }
-}
-
-/* Rule to stop large screens showing small icons  */
-@media only screen and (min-width: 780px) {
-    .mobile {
-        display: none;
-    }
-}
-
-/* Desktop view navigation styling */
-/* nav .desktop span {
-    /* font-weight: 900; */
- 
-
-nav li {
-    list-style-type: none;
-    display: inline-block;
-    text-align: right;  
-}
-
-nav img, nav p {
-    display: inline-block;
-}
-
-nav ul {
-    text-align: right;
-    width: 50%;
-    margin: 0; 
-}
-
+/* NAVIGATION BAR */
 nav {
-    border: 4px dotted black;
+    box-sizing: border-box;
+    border: 2px solid grey;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
 }
+
+ nav h1, nav span {
+     display: none;
+ }
+
+nav ul    {
+     display: inline-block;
+     padding: 0;    
+ }
+
+ nav ul img:hover {
+     background-color: orangered;
+ }
+
+
+ nav ul li {
+     display: inline-block;
+     list-style-type: none;
+     margin: 5px;
+     text-decoration: none;
+ }
+
+ /* LEARN SOMETHING */
+
+ .learn-something {
+     background-color: #dcdbdc;
+     color: #585958;
+ }
+
+ .column-left, .column-right {
+     width: 100%;
+ }
+
+ .learn-something h2 {
+     font-weight: 2000;
+     margin-left: 20px;
+ }
+
+ .learn-something h3 {
+     font-weight: 200;
+     margin-left: 20px;
+ }
+
+ .learn-something .column-right {
+     width: 90%;
+ }
+
+ .column-right a {
+     text-decoration: none;
+     background-color: #585958;
+     display: block;
+     border-radius: 5px;
+     color: white;
+     margin: 0 auto;
+     padding: 10px 10px;
+    text-align: center;
+ }
+
+
+
+
+ @media only screen and (min-width: 781px) {
+        nav {
+            display: flex;
+            justify-content: space-between;
+            width: 100%
+        }
+
+        nav h1, nav h1 span {
+            display: initial;
+            font-family: 'Cormorant Garamond', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            width: 30%
+        }
+
+        .LHS {
+            display: inline;
+        }
+
+        nav h1 span {
+            font-style: oblique;
+        }
+
+        nav ul img {
+            display: none;
+        }
+
+        nav ul span {
+            color: navy;
+            display: initial;
+        }
+ }
