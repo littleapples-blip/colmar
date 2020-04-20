@@ -1,0 +1,42 @@
+* {
+    font-family: 'DM Serif Text', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+/* Rule to stop smaller screens showing full list  */
+@media only screen and (max-width: 780px) {
+    .desktop {
+        display: none;
+    }
+}
+
+/* Rule to stop large screens showing small icons  */
+@media only screen and (min-width: 780px) {
+    .mobile {
+        display: none;
+    }
+}
+
+/* Desktop view navigation styling */
+/* nav .desktop span {
+    /* font-weight: 900; */
+ 
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    text-align: right;  
+}
+
+nav img, nav p {
+    display: inline-block;
+}
+
+nav ul {
+    text-align: right;
+    width: 50%;
+    margin: 0; 
+}
+
+nav {
+    border: 4px dotted black;
+}
