@@ -102,6 +102,7 @@ nav ul    {
 
  .keep-practicing .column-right ul {
      width: 100%;
+     margin: 0 auto;
  }
 
  .keep-practicing ul li {
@@ -114,10 +115,12 @@ nav ul    {
 
  .keep-practicing ul li img {
      width: 100%;
+    
  }
 
  .keep-practicing .column-right h3, .keep-practicing .column-right p {
     color: #585958;
+   
  }
 
  .keep-practicing .column-right a {
@@ -149,7 +152,7 @@ nav ul    {
 }
 
 .start-learning ul li {
-    width: 100%; 
+    /* width: 100%;  */
     list-style-type: none;
 }
 
@@ -162,12 +165,33 @@ nav ul    {
     box-sizing: border-box;
     background-color: lightgrey;
     padding: 10px;
-    border: 2px solid white;
-    width: 75%;
+    border: 4px solid white;
+    width: 65%;
     align-items: center;
     margin: 0 auto;
 }
 
+
+/* THESIS EXHIBITS ----------------------------------------------------------- */
+.thesis-exhibit .container .column-left-hide,
+.thesis-exhibit .container .column-left-hide, 
+.thesis-exhibit .column-right {
+    display: none;
+}
+
+.thesis-exhibit .container h2 {
+    text-align: center;
+    font-weight: 500;
+}
+
+footer ul {
+    display: none;
+}
+
+footer {
+    color: slategray;
+    font-size: 0.75rem;
+}
 /* DESKTOP MEDIA QUERY---------------------------------------------------------------------------------- */
 
  @media only screen and (min-width: 781px) {
