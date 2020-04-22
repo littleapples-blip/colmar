@@ -1,6 +1,5 @@
 /*    imported fonts:
 font-family: 'Cormorant Garamond', serif;
-font-family: 'Libre Franklin', sans-serif;
  */
 * {
     font-family: 'Libre Franklin', Arial, Helvetica, sans-serif;
@@ -12,9 +11,8 @@ font-family: 'Libre Franklin', sans-serif;
 
 nav {
     box-sizing: border-box;
-    border: 2px solid grey;
+    /* border: 2px solid grey; */
     width: 100%;
-    
     display: flex;
     justify-content: space-between;
     align-content: center;
@@ -25,8 +23,9 @@ nav {
  }
 
 nav ul    {
-     display: inline-block;
+     display: flex;
      padding: 0;    
+     align-items: center;
  }
 
  nav ul img:hover {
@@ -175,17 +174,14 @@ nav ul    {
         nav {
             display: flex;
             justify-content: space-between;
-            width: 100%
+            width: 100%;
+            padding: 10px;
         }
 
         nav h1, nav h1 span {
             display: initial;
             font-family: 'Cormorant Garamond', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             width: 30%
-        }
-
-        .LHS {
-            display: inline;
         }
 
         nav h1 span {
@@ -197,7 +193,14 @@ nav ul    {
         }
 
         nav ul span {
-            color: navy;
+            color: rgb(57, 63, 68);
             display: initial;
+            text-decoration: none;
+            border: none
+        }
+
+        nav ul a {
+            text-decoration: none;
+            padding: 10px;
         }
  }
