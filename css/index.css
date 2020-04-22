@@ -6,7 +6,10 @@ font-family: 'Libre Franklin', sans-serif;
     font-family: 'Libre Franklin', Arial, Helvetica, sans-serif;
 }
 
-/* NAVIGATION BAR */
+.container {
+    margin: 0 auto;
+}
+
 nav {
     box-sizing: border-box;
     border: 2px solid grey;
@@ -60,10 +63,12 @@ nav ul    {
  }
 
  .learn-something .column-right {
-     width: 90%;
+     /* width: 90%; */
+     margin: 0 auto;
+     padding-bottom: 24px;
  }
 
- .column-right a {
+ .learn-something .column-right a {
      text-decoration: none;
      background-color: #585958;
      display: block;
@@ -71,11 +76,100 @@ nav ul    {
      color: white;
      margin: 0 auto;
      padding: 10px 10px;
-    text-align: center;
+     text-align: center;
+     width: 25%;
  }
 
 
+ /* KEEP PRACTICING  */
 
+ .keep-practicing .column-left {
+     display: none;
+ }
+
+ .desktop-only {
+     display: none;
+ }
+
+ .keep-practicing {
+     /* margin: 16px 16px; */
+     width: 100%;
+ }
+
+.keep-practicing .column-right {
+    margin: 0 auto;
+    padding: 0;
+}
+
+ .keep-practicing .column-right ul {
+     width: 100%;
+ }
+
+ .keep-practicing ul li {
+     display: flex;
+     list-style-type: none;
+     margin: 16px 16px 64px 16px;
+     width: 100%;
+     flex-wrap: wrap;
+ }
+
+ .keep-practicing ul li img {
+     width: 100%;
+ }
+
+ .keep-practicing .column-right h3, .keep-practicing .column-right p {
+    color: #585958;
+ }
+
+ .keep-practicing .column-right a {
+     text-decoration: none;
+ }
+
+ .keep-practicing a .read-more {
+     color: steelblue;
+     text-decoration: underline;
+ }
+
+ a .read-more:hover {
+     color: rebeccapurple;
+ }
+
+ /* START LEARNING */
+
+.start-learning {
+    width: 100%;
+}
+
+.start-learning h2 {
+    text-align: center;
+    color: #585958;
+    font-style: bold;
+    font-size: 2rem;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.start-learning ul li {
+    width: 100%; 
+    list-style-type: none;
+}
+
+.start-learning img, .start-learning h6, .start-learning p {
+    display: none;
+}
+
+.start-learning h3 {
+    display: flex;
+    box-sizing: border-box;
+    background-color: lightgrey;
+    padding: 10px;
+    border: 2px solid white;
+    width: 75%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+/* DESKTOP MEDIA QUERY---------------------------------------------------------------------------------- */
 
  @media only screen and (min-width: 781px) {
         nav {
