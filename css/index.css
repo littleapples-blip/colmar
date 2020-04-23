@@ -108,22 +108,23 @@ nav ul    {
 }
 
  .keep-practicing .column-right ul {
-     width: 75%;
-     margin: 
+     width: 100%;
+     margin: 0 auto;
 
  }
 
  .keep-practicing ul li {
-     display: flex;
+     /* display: flex; */
      list-style-type: none;
      margin: 0 auto;
-     width: 90%;
-     flex-wrap: wrap;
+     width: 75%;
+     /* flex-wrap: wrap; */
      margin-bottom: 32px;
  }
 
  .keep-practicing ul li img {
      width: 100%;
+     margin: 0 auto;
  }
 
  .keep-practicing .column-right h3, .keep-practicing .column-right p {
