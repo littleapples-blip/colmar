@@ -2,7 +2,7 @@
 font-family: 'Cormorant Garamond', serif;
  */
 * {
-    font-family: 'Libre Franklin', Arial, Helvetica, sans-serif;
+    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -36,7 +36,8 @@ nav ul    {
  nav ul li {
      display: inline-block;
      list-style-type: none;
-     margin: 5px;
+     /* margin: 5px; */ 
+     padding: 0 5px;
      text-decoration: none;
  }
 
@@ -45,6 +46,8 @@ nav ul    {
  .learn-something {
      background-color: #dcdbdc;
      color: #585958;
+     margin-bottom: 16px;
+     padding: 10px;
  }
 
  .column-left, .column-right {
@@ -52,8 +55,9 @@ nav ul    {
  }
 
  .learn-something h2 {
-     font-weight: 2000;
+     font-weight: bolder;
      margin-left: 20px;
+     font-size: 2.5rem;
  }
 
  .learn-something h3 {
@@ -64,20 +68,22 @@ nav ul    {
  .learn-something .column-right {
      /* width: 90%; */
      margin: 0 auto;
-     padding-bottom: 24px;
- }
+     /* padding-bottom: 24px; */
+ }   
 
  .learn-something .column-right a {
      text-decoration: none;
-     background-color: #585958;
+     background-color: grey;
      display: block;
      border-radius: 5px;
      color: white;
-     margin: 0 auto;
+     margin: 24px auto;
      padding: 10px 10px;
      text-align: center;
-     width: 25%;
- }
+     width: 50%;
+     font-size: 1.15rem;
+     font-weight: bold;
+     letter-spacing: 1px; }
 
 
  /* KEEP PRACTICING  */
@@ -91,31 +97,33 @@ nav ul    {
  }
 
  .keep-practicing {
-     /* margin: 16px 16px; */
      width: 100%;
+     margin-top: 24px
  }
 
 .keep-practicing .column-right {
     margin: 0 auto;
     padding: 0;
+    width: 100%;
 }
 
  .keep-practicing .column-right ul {
-     width: 100%;
-     margin: 0 auto;
+     width: 75%;
+     margin: 
+
  }
 
  .keep-practicing ul li {
      display: flex;
      list-style-type: none;
-     margin: 16px 16px 64px 16px;
-     width: 100%;
+     margin: 0 auto;
+     width: 90%;
      flex-wrap: wrap;
+     margin-bottom: 32px;
  }
 
  .keep-practicing ul li img {
      width: 100%;
-    
  }
 
  .keep-practicing .column-right h3, .keep-practicing .column-right p {
@@ -149,6 +157,12 @@ nav ul    {
     font-size: 2rem;
     margin: 0 auto;
     width: 50%;
+    line-height: 4rem;
+}
+
+.start-learning ul {
+    margin: 0 auto;
+    padding: 0;
 }
 
 .start-learning ul li {
@@ -181,7 +195,9 @@ nav ul    {
 
 .thesis-exhibit .container h2 {
     text-align: center;
-    font-weight: 500;
+    color: #585958;
+    font-style: bold;
+    font-size: 2rem;
 }
 
 footer ul {
